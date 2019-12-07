@@ -1,0 +1,197 @@
+* {
+    font-family: Arial;
+    color:black;
+    font-size:12pt;
+    text-decoration:none;
+    box-sizing: border-box;
+    background-color:white;
+    box-shadow:none;
+}
+body {
+    box-shadow:none;
+}
+img {
+    display:none;
+}
+header {
+    text-align:center;
+}
+section {
+    color:black;
+    margin-top:0%;
+    margin-left:0%;
+    text-align:justify;
+    padding:0%;
+
+}
+script {
+    display:none;
+}
+h1 {
+    font-family: Arial;
+    color:black;
+    font-size:12pt;
+    text-decoration:none;
+    margin-bottom:0%;
+    margin-top:0%;
+    box-shadow:none;
+    text-shadow:none;
+}
+h2 {
+    font-family: Arial;
+    color:black;
+    font-size:12pt;
+    text-decoration:none;
+    margin-bottom:0%;
+    margin-top:0%;
+    text-align:center;
+    box-shadow:none;
+    text-shadow:none;
+}
+h3 {
+    font-family: Arial;
+    color:black;
+    font-size:12pt;
+    text-decoration:none;
+    margin-bottom:0%;
+    margin-top:0%;
+    text-align:justify-right;
+    box-shadow:none;
+    text-shadow:none;
+}
+summary {
+    color:black;
+    margin-bottom:0%;
+    margin-top:0%;
+    text-align:left;
+    box-shadow:none;
+    text-shadow:none;
+    font-size:12pt;
+}
+details {
+    color:black;
+    margin-top:0%;
+    box-shadow:none;
+    text-shadow:none;
+    font-size:12pt;
+}
+.icon-bar {
+    display:none;
+	width: 100%;
+	overflow: auto;
+}
+.icon-bar a {
+    display:none;
+    float: center;
+	text-align: center;
+    width: 20%;
+    margin-left: 0px;
+    margin-right: 0px;
+	padding: 0;
+}
+.icon-bar a:hover {
+    display:none;
+    color:black;
+}
+[class*="col-"] {
+    width: 100%;
+    padding:15px;
+
+}
+@media only screen and (min-width: 600px) {
+        .col-m-1 {width: 8.33%;}
+        .col-m-2 {width: 16.66%;}
+        .col-m-3 {width: 25%;}
+        .col-m-4 {width: 33.33%;}
+        .col-m-5 {width: 41.66%;}
+        .col-m-6 {width: 50%;}
+        .col-m-7 {width: 58.33%;}
+        .col-m-8 {width: 66.66%;}
+        .col-m-9 {width: 75%;}
+        .col-m-10 {width: 83.33%;}
+        .col-m-11 {width: 91.66%;}
+        .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+}
+a:link {
+    color:black;
+    text-decoration:none;
+}
+a:active {
+    color:black;
+    text-decoration:none;
+}
+a:visited {
+    color:black;
+    text-decoration:none;
+}
+a:hover {
+    color:black;
+    text-decoration:none;
+}
+#rightaside {
+	float:right;
+	padding-left:0px;
+}
+aside {
+    margin-top:0%;
+}
+.sidenav {
+    font-family: Arial;
+    font-size:12pt;
+    text-decoration:none;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    display:none;
+}
+.sidenav a {
+    text-decoration: none;
+    display: block;
+    font-family: Arial;
+    color:black;
+    font-size:12pt;
+}
+.sidenav a:hover {
+    color: black;
+    font-family: Arial;
+    font-size:12pt;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 0;
+    font-family: Arial;
+    color:black;
+    font-size:12pt;
+}
+.child {
+    max-width: 50%;
+    padding: 0%;
+    margin: 0%;
+    background:black;
+    flex: 1;
+}
+#parentBox {
+    padding: 0%;
+    display: flex;
+    flex-wrap: wrap;
+}

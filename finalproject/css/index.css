@@ -1,0 +1,199 @@
+* {
+    font-family: 'Berkshire Swash', cursive;
+    box-sizing: border-box;
+}
+body {
+    background-image:url('../media/background.jpg');
+    background-size:cover;
+}
+header {
+    text-align:center;
+}
+section {
+    background-image:url('../media/background2.jpg');
+    font-size: 1.1em;
+    color:white;
+    margin-top:5%;
+    margin-left:25%;
+    text-align:justify;
+    padding:1%;
+    border:5px solid white;
+    box-shadow: 2px 2px 2px black;
+}
+h1 {
+    font-size:8em;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    margin-bottom:0%;
+    margin-top:0%;
+}
+h2 {
+    font-size:2em;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom:0%;
+    margin-top:0%;
+    text-align:center;
+}
+h3 {
+    font-size:1.2em;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom:0%;
+    margin-top:0%;
+    text-align:justify-right;
+}
+summary {
+    font-size:1.2em;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom:0%;
+    margin-top:0%;
+    text-align:left;
+}
+details {
+    margin-top:1%;
+}
+footer {
+    color:white;
+    font-size:1.4em;
+    text-decoration:small;
+    text-align:center;
+}
+.icon-bar {
+	width: 100%;
+	overflow: auto;
+}
+.icon-bar a {
+    float: center;
+	text-align: center;
+    width: 20%;
+    margin-left: 50px;
+    margin-right: 50px;
+	padding: 10px 0;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 36px;
+}
+.icon-bar a:hover {
+    color:black;
+    text-shadow: 2px 2px 2px gray;
+}
+[class*="col-"] {
+    width: 100%;
+    padding:15px;
+
+}
+@media only screen and (min-width: 600px) {
+        .col-m-1 {width: 8.33%;}
+        .col-m-2 {width: 16.66%;}
+        .col-m-3 {width: 25%;}
+        .col-m-4 {width: 33.33%;}
+        .col-m-5 {width: 41.66%;}
+        .col-m-6 {width: 50%;}
+        .col-m-7 {width: 58.33%;}
+        .col-m-8 {width: 66.66%;}
+        .col-m-9 {width: 75%;}
+        .col-m-10 {width: 83.33%;}
+        .col-m-11 {width: 91.66%;}
+        .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+}
+a:link {
+    color:white;
+    text-decoration:underline;
+}
+a:active {
+    text-decoration:none;
+    animation:none;
+    color:gold;
+}
+a:visited {
+    color:white;
+    text-decoration:italic;
+}
+a:hover {
+    color:black;
+    animation: pulse 7s infinite;
+    text-decoration:none;
+}
+@keyframes pulse {
+	0% {color: white; text-shadow:1px 1px 1px #eb7b4b;}
+	25% {color: #eb7b4b; text-shadow:2px 2px 5px #eb7b4b;}
+    50% {color: white; text-shadow:3px 3px 10px #eb7b4b;}
+    75% {color: #eb7b4b; text-shadow:2px 2px 5px #eb7b4b;}
+	100% {color: white; text-shadow:1px 1px 1px #eb7b4b;}
+}
+#rightaside {
+	float:right;
+	padding-left:20px;
+}
+aside {
+    margin-top:5%;
+    color:white;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image:url('../media/background2.jpg');
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border: 2px solid white;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+span {
+    color:white;
+    font-size:30px;
+    cursor:pointer;
+}
+img {
+    border: 5px smooth white;
+}
+.child {
+    max-width: 50%;
+    padding: 1%;
+    border: 2px solid white;
+    margin: 1%;
+    background:black;
+    flex: 1;
+}
+#parentBox {
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
